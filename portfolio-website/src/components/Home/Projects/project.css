@@ -1,0 +1,12 @@
+/* Define a custom CSS class for rotation */
+.rotated-image {
+    transform: rotate(-9deg);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Define a custom CSS class to reset rotation */
+  .reset-rotation {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in-out;
+  }
+  
